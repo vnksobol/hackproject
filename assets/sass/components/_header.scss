@@ -4,6 +4,7 @@
     justify-content: flex-end;
     background-color: $color-neutral;
     font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
     
 }
 
@@ -22,21 +23,23 @@
 }
 .add-word{
     border-radius: 40px;
-    background-color: $color-basic;
+    background-color: lightgreen;
     width: 155px;
     height: 48px;
-    margin-top: 79px;
+    margin-top: 1%;
     color: $color-font;
     font-family: $font-primary;
+    margin-bottom: 1%;
 }
 .add-definition {
     border-radius: 40px;
     background-color: $color-basic;
     width: 155px;
     height: 48px;
-    margin-top: 79px;
+    margin-top: 1%;
     color: $color-font;
     font-family: $font-primary;
+    margin-bottom: 1%;
 }
 
 .container__buttons{
@@ -51,4 +54,7 @@
 
 .add-word:hover {
     background-color: $color-basic-dark;
+}
+.extra{
+    color: black;
 }
