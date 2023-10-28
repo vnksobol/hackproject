@@ -1,11 +1,11 @@
-// //fonts 
-$font-primary: var(.assets/fonts/Roboto-Regular.ttf) 
-// $font-secondary: '', serif; 
-// //colors 
-$color-neutral: var(--background-color-radial-1, radial-gradient(103.89% 121.8% at 34.94% 108.33%, #F7CBFD 0%, #7758D1 100%)); //фон карточки 
-$color-basic: var(--buttons-color-solid-1, #48319D); //фон термина и определения 
-$color-font: white; //цвет шрифта 
-// $color-basic-light: ; 
-$color-basic-dark: var(--weather-color-solid-3, #C427FB); 
-// $color-primary: rgb(); 
-// $color-secondary: rgb();
+// //fonts
+$font-primary: 'Roboto', sans-serif;
+// $font-secondary: '', serif;
+// //colors
+$color-neutral: rgba(59, 64, 86, 0.15); //фон карточки
+$color-basic: var(--weather-color-solid-1, #48319D); //фон термина и определения
+$color-font: #E0D9FF; //цвет шрифта
+// $color-basic-light: rgb();
+// $color-basic-dark: rgb();
+// $color-primary: rgb();
+$color-secondary: rgb(255, 221, 54);
