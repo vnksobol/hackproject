@@ -57,3 +57,17 @@
         text-align: center;
     }
 }
+
+.main__check{
+    border-radius: 40px;
+    background-color: $color-secondary;
+    width: 155px;
+    height: 48px;
+    margin-top: 79px;
+    color: $color-basic;
+    font-family: $font-primary;
+}
+.main__check:hover{
+    background-color: $color-basic;
+    color: $color-font;
+}

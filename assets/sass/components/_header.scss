@@ -13,6 +13,7 @@
     width: 100px;
     height: 100px;
     float: left;
+    z-index: -1;
 }
 
 .title {
@@ -26,6 +27,7 @@
     height: 48px;
     margin-top: 79px;
     color: $color-font;
+    font-family: $font-primary;
 }
 .add-definition {
     border-radius: 40px;
@@ -34,17 +36,19 @@
     height: 48px;
     margin-top: 79px;
     color: $color-font;
+    font-family: $font-primary;
 }
 
 .container__buttons{
     display: flex;
-
+    align-items: center;
+    justify-content: space-evenly;
 }
 
 .add-definition:hover {
-    color: $color-basic-dark;
+    background-color: $color-basic-dark;
 }
 
 .add-word:hover {
-    color: $color-basic-dark;
+    background-color: $color-basic-dark;
 }
