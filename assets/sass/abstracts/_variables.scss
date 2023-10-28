@@ -1,10 +1,11 @@
 // //fonts
-// $font-primary: '', serif;
+$font-primary: 'Roboto', sans-serif;
 // $font-secondary: '', serif;
 // //colors
-// $color-neutral: rgb();
-// $color-basic: rgb();
+$color-neutral: rgba(59, 64, 86, 0.15); //фон карточки
+$color-basic: var(--weather-color-solid-1, #48319D); //фон термина и определения
+$color-font: #E0D9FF; //цвет шрифта
 // $color-basic-light: rgb();
-// $color-basic-dark: rgb();
+$color-basic-dark: var(--weather-color-solid-3, #C427FB);;
 // $color-primary: rgb();
-// $color-secondary: rgb();
+$color-secondary: rgb(255, 221, 54);
