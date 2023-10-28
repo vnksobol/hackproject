@@ -1,6 +1,6 @@
 ## Lightbolt - Easy IT learning <br/>
 <div id=“” align=“center”>
- <img src="assets/images/" class="image" width=“100”/>
+<!--  <img src="assets/images/" class="image" width=“100”/> -->
 </div>
 
 Our students first hackathon project
@@ -47,5 +47,6 @@ You may check the website following the link <br/>
 
 
 Some of the parts are still to be worked on
+- 
 - 
 - 
