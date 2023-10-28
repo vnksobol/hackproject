@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<meta charset="UTF-8" />
+<html>
+<head>
+    <title>Fetch JSON from Java Spring Boot</title>
+</head>
+<body>
+<h1>JSON Data from Java Spring Boot</h1>
+<button id="getAll" onclick="getQuestions()">Получить данные</button>
+<button id="add" onclick="submitQuestion()">Добавить вопрос</button>
+<input type="text" id="input1" placeholder="Title">
+<input type="text" id="input2" placeholder="Description">
+<button id="delete" onclick="submitDelete()">Удалить вопрос</button>
+<input type="text" id="input3" placeholder="Что удалить">
+<script src="apiservice.js"></script>
+<div id="data-container">
+    <!-- JSON data will be displayed here -->
+</div>
+
+</body>
+</html>
