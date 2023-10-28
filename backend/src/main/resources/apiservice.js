@@ -2,7 +2,7 @@
 
 // Function to fetch data from the backend
 function getQuestions() {
-    fetch('http://localhost:8080/questions', {
+    fetch('https://560f-2a01-5a8-306-24ab-a5c4-424f-ac04-1018.ngrok-free.app/questions', {
         method: 'GET', // Use the appropriate HTTP method (GET, POST, PUT, DELETE, etc.)
         headers: {
             'Content-Type': 'application/json',
@@ -28,7 +28,7 @@ function getQuestions() {
 }
 
 function addQuestion(title, definition) {
-    fetch(`http://localhost:8080/create?title=${title}&definition=${definition}`, {
+    fetch(`https://560f-2a01-5a8-306-24ab-a5c4-424f-ac04-1018.ngrok-free.app/create?title=${title}&definition=${definition}`, {
         method: 'POST',
         headers: {
             'Content-Type': 'application/json',
@@ -51,7 +51,7 @@ function addQuestion(title, definition) {
 }
 
 function deleteQuestion(id) {
-    fetch('http://localhost:8080/questions/{id}', {
+    fetch('https://560f-2a01-5a8-306-24ab-a5c4-424f-ac04-1018.ngrok-free.app/questions/{id}', {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json' // Установите заголовок Content-Type при необходимости
