@@ -1,12 +1,50 @@
-img {
+.container__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: $color-neutral;
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+
+
+.logo__img {
     width: 100px;
     height: 100px;
     float: left;
-  }
-  
-  a {
-    display: inline-block;
-    position: absolute;
-    top: 40px;
-    left: 25px;
-  }
+}
+
+.title {
+    display: flex;
+
+}
+.add-word{
+    border-radius: 40px;
+    background-color: $color-basic;
+    width: 155px;
+    height: 48px;
+    margin-top: 79px;
+    color: $color-font;
+}
+.add-definition {
+    border-radius: 40px;
+    background-color: $color-basic;
+    width: 155px;
+    height: 48px;
+    margin-top: 79px;
+    color: $color-font;
+}
+
+.container__buttons{
+    display: flex;
+
+}
+
+.add-definition:hover {
+    color: $color-basic-dark;
+}
+
+.add-word:hover {
+    color: $color-basic-dark;
+}
