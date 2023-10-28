@@ -22,22 +22,22 @@ You may check the website following the link <br/>
 ## Development team: <br/>
 <h3>
   <a href="https://github.com/marinakotuseva">
-    <img alt="Marina" src="" />
+    <img alt="Marina" src="https://img.shields.io/badge/-Veronika-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
 <h3>
   <a href="https://github.com/katekoso">
-    <img alt="Ekaterina" src="" />
+    <img alt="Ekaterina" src="https://img.shields.io/badge/-Veronika-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
 <h3>
   <a href="https://github.com/Eva71879">
-    <img alt="Elena" src="" />
+    <img alt="Elena" src="https://img.shields.io/badge/-Veronika-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
 <h3>
   <a href="https://github.com/mercurialli">
-    <img alt="Nina" src="" />
+    <img alt="Nina" src="https://img.shields.io/badge/-Veronika-black?style=for-the-badge&logo=github&logoColor=white" />
   </a>
 </h3>
   <a href="https://github.com/vnksobol">
