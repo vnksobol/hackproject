@@ -21,7 +21,7 @@
 
   <body id="body">
     <div class="wrapper">
-      <header class="header"></header>
+
       <header class="header">
         <div class="container__header">
         <h1 class="title">LightBolt</h1>  
@@ -30,13 +30,13 @@
         
       </header>
       <main class="main">
-        <div class="main__termin">
+        <div class="main__termin" id="title">
           <p>
             слово, которое надо изучить Neque porro quisquam est qui dolorem
             ipsum quia dolor sit amet
           </p>
         </div>
-        <div class="main__definition">
+        <div class="main__definition" id="definition">
           <p>
             определение слова Lorem ipsum dolor sit amet, consectetur adipiscing
             elit. Duis eget congue quam. Donec ac nisl ac lectus sagittis
@@ -51,12 +51,22 @@
             augue.
           </p>
         </div>
-        <button class="main__check">Проверить значение</button>
+        <button class="main__check" id="checkButton">Проверить значение</button>
       </main>
       <footer>
         <div class="container__buttons">
-          <button class="add-word extra">Добавить определение</button>
-          <button class="add-definition">Следующая карточка</button>
+          <button class="add-word extra" id="addButton">Добавить определение</button>
+           <form id="addCardForm" class="hidden">
+          <input type="text" placeholder="Введите термин" id="formTerm" />
+          <input
+            type="text"
+            placeholder="Введите определение"
+            id="formDefinition"
+          />
+          <button id="saveButton" type="button">Сохранить</button>
+        </form>
+          <button id="previous">Назад</button>
+          <button id="next" class="add-definition">Вперед</button>
           </div>
       </footer>
       <script src="assets/script/script.js"></script>
