@@ -15,14 +15,28 @@
 
   <body id="body">
     <div class="wrapper">
-      <header class="header">
-      </header>
+      <header class="header"></header>
       <main class="main">
+        <button id="previous">Назад</button>
+        <div id="card">
+          <p id="title"></p>
+          <button id="checkButton">Проверить</button>
+          <p id="definition"></p>
+        </div>
+        <button id="next">Вперед</button>
+        <button id="addButton">Добавить свою карточку</button>
+        <form id="addCardForm" class="hidden">
+          <input type="text" placeholder="Введите термин" id="formTerm" />
+          <input
+            type="text"
+            placeholder="Введите определение"
+            id="formDefinition"
+          />
+          <button id="saveButton" type="button">Сохранить</button>
+        </form>
       </main>
 
-
       <script src="assets/script/script.js"></script>
-
     </div>
   </body>
 </html>
