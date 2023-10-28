@@ -1,0 +1,60 @@
+.container__header{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    background-color: $color-neutral;
+    font-family: 'Roboto', sans-serif;
+    margin-bottom: 2%;
+    
+}
+
+
+
+.logo__img {
+    width: 100px;
+    height: 100px;
+    float: left;
+    z-index: -1;
+}
+
+.title {
+    display: flex;
+
+}
+.add-word{
+    border-radius: 40px;
+    background-color: lightgreen;
+    width: 155px;
+    height: 48px;
+    margin-top: 1%;
+    color: $color-font;
+    font-family: $font-primary;
+    margin-bottom: 1%;
+}
+.add-definition {
+    border-radius: 40px;
+    background-color: $color-basic;
+    width: 155px;
+    height: 48px;
+    margin-top: 1%;
+    color: $color-font;
+    font-family: $font-primary;
+    margin-bottom: 1%;
+}
+
+.container__buttons{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.add-definition:hover {
+    background-color: $color-basic-dark;
+}
+
+.add-word:hover {
+    background-color: $color-basic-dark;
+}
+.extra{
+    color: black;
+}
