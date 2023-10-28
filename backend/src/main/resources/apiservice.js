@@ -51,12 +51,11 @@ function addQuestion(title, definition) {
 }
 
 function deleteQuestion(id) {
-    fetch('https://560f-2a01-5a8-306-24ab-a5c4-424f-ac04-1018.ngrok-free.app/questions/{id}', {
+    fetch(`https://560f-2a01-5a8-306-24ab-a5c4-424f-ac04-1018.ngrok-free.app/questions/${id}`, {
         method: 'DELETE',
         headers: {
             'Content-Type': 'application/json' // Установите заголовок Content-Type при необходимости
-        },
-        body: JSON.stringify({id: id})
+        }
     })
         .then(response => {
             if (!response.ok) {

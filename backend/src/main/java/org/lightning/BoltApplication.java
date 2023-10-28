@@ -33,7 +33,9 @@ public class BoltApplication {
             public void addCorsMappings(CorsRegistry registry) {
 
                 registry.addMapping("/questions").allowedOrigins("http://localhost:63342");
+                registry.addMapping("/questions").allowedOrigins("http://127.0.0.1:5500");
                 registry.addMapping("/create").allowedOrigins("http://localhost:63342");
+                registry.addMapping("/create").allowedOrigins("http://127.0.0.1:5500");
             }
         };
     }
@@ -43,6 +45,7 @@ public class BoltApplication {
 
         CorsConfiguration configuration = new CorsConfiguration();
         configuration.addAllowedOrigin("http://localhost:63342");
+        configuration.addAllowedOrigin("http://127.0.0.1:5500");
         configuration.addAllowedMethod("DELETE");
         configuration.addAllowedHeader("*");
 

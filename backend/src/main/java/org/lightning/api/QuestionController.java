@@ -47,7 +47,7 @@ public class QuestionController {
      */
     @PostMapping("/create")
     public ResponseEntity<Question> createQuestion(@RequestParam(value = "title") String title,
-            @RequestParam(value = "title") String definition) {
+            @RequestParam(value = "definition") String definition) {
 
         return ResponseEntity.ok().body(questionService.addQuestion(title, definition));
     }
@@ -60,9 +60,9 @@ public class QuestionController {
      * @return ответ
      */
     @DeleteMapping("/questions/{id}")
-    public HttpStatus deleteQuestion(@PathVariable long id) {
+    public HttpStatus deleteQuestion(@PathVariable String id) {
 
-        questionService.deleteQuestion(id);
+        questionService.deleteQuestion(Long.parseLong(id));
         return HttpStatus.OK;
     }
 }
