@@ -2,8 +2,8 @@
 // $font-primary: '', serif;
 // $font-secondary: '', serif;
 // //colors
-// $color-neutral: rgb();
-// $color-basic: rgb();
+$color-neutral: rgba(59, 64, 86, 0.15);
+$color-basic: var(--weather-color-solid-1, #48319D);
 // $color-basic-light: rgb();
 // $color-basic-dark: rgb();
 // $color-primary: rgb();

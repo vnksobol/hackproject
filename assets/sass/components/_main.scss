@@ -1,0 +1,32 @@
+*{
+    border: 1px solid black;
+}
+
+.main {
+    box-sizing: border-box;
+    margin: auto;
+    max-width: 1200px;
+    min-height: 60vh;
+    max-height: 1000px;
+    border-radius: 20px;
+    background-color: $color-neutral;
+}
+
+
+.main__termin {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    max-width: 80%;
+    min-height: 40%;
+    background-color: $color-basic;
+
+
+}
+.main__definition {
+    margin: auto;
+    max-width: 80%;
+    min-height: 50%;
+    background-color: $color-basic;
+}
